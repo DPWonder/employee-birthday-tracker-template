@@ -15,13 +15,14 @@ Dates are YYYY-MM-DD (2022-03-07), which Excel and Google Sheets read the same w
 
 ## Get reminded
 
-A list doesn't remind anyone by itself. Three ways, free ones first:
+A list doesn't remind anyone by itself. Four ways, free ones first:
 
 1. **A calendar.** For each row, add an event in Google Calendar or Outlook that repeats every year, with a notification the day before. Free; you keep each event up to date.
 2. **Slack's `/remind`.** In the channel, type for example:
    `/remind #team to wish Avery a happy work anniversary on March 7 at 9am`
    Free. One reminder per date. Slack's help page shows repeats such as "every Monday" and does not mention a yearly repeat, so plan to set each one again.
-3. **Greetigo.** Copy the rows and paste them into https://greetigo.com/employee-birthday-tracker?utm_source=github&utm_campaign=template-1123 . The list's owner gets an email the day before and on the morning of each date, with a message ready to change. It emails you, not the team. Free for up to 10 dates (about five people with a birthday and a start date each); Plus, US$4.99 a month, has no date limit.
+3. **A GitHub Action that posts to Slack.** Keep this CSV in a repository and [slack-birthday-reminder-action](https://github.com/DPWonder/slack-birthday-reminder-action) posts each morning's birthdays and work anniversaries to a Slack or Discord channel. Free and open source; it reads these same columns.
+4. **Greetigo.** Copy the rows and paste them into https://greetigo.com/employee-birthday-tracker?utm_source=github&utm_campaign=template-1123 . The list's owner gets an email the day before and on the morning of each date, with a message ready to change. It emails you, not the team. Free for up to 50 dates (a team of 25 with a birthday and a start date each); Plus, US$4.99 a month, has no date limit.
 
 Made by the Greetigo team. The template works without Greetigo.
 
